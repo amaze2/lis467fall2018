@@ -1,0 +1,114 @@
+body {
+    font-size: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+a:link {	color: blue;
+			text-decoration: none;}
+a:visited {	color: black;
+			text-decoration: none;}
+a:hover {	color: rgba(44, 246, 54, 0.6);
+			text-decoration: underline;}
+a:active {
+			color: red;
+			text-decoration: underline;}  
+		
+nav { 
+	font-weight: bold; 
+    text-align: center;
+    margin: auto;
+    word-spacing: 15px;
+    padding: 5px 20px 5px 20px;
+    font-family: "Century Gothic", Avenir, Garamond, Arial, serif;
+    list-style-type: none; 
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu{
+    display: inline;
+    list-style-type: none;
+					}
+
+#main{
+    width: 75%;
+    padding: 10px;
+    margin:auto;
+    font-family: "Century Gothic", Avenir, Garamond, Arial, serif;
+    font-weight: bold;
+    font-size: 200%; 
+    text-align: center;
+}
+
+#title{
+	text-align: center;
+ 	font-family: "Brandon Grotesque", Avenir, Brown, Apercu;
+ 	margin: auto;
+  }
+
+#text{
+    padding: 4px;
+    font-family: "Brandon Grotesque", Avenir, Brown, Apercu;
+    max-width:500px;
+    margin: auto;
+}
+
+.running{
+	list-style-type: disc; 
+	display: block;
+	font-family: "Brandon Grotesque", Avenir, Brown, Apercu;
+	padding: 4px;
+	text-align: center;
+	max-width:500px;
+    margin: auto;
+}
+
+.h4{
+	font-family: "Brandon Grotesque", Avenir, Brown, Apercu;
+	padding: 4px;
+	text-align: center;
+	max-width:500px;
+    margin: auto;
+
+    }
+
+.run{
+	font-family: "Brandon Grotesque", Avenir, Brown, Apercu;
+	padding: 4px;
+	text-align: center;
+	max-width:500px;
+    margin: auto;
+    }
+
+img.resize {
+  max-width:150%;
+  max-height:150%;
+}
+    
+img {border-radius: 8px; display: block; margin: auto; width: 100%; max-width:30%; height:auto; position: relative}
+
+#image{
+    width: 100%; 
+}
+
+@media (max-width: 600px) {
+
+    #menu li {
+        padding: 2px;
+        display:list-item;
+        text-align:left;
+    }
+    #main{
+    	width: 50%;
+    	text-align: center;
+    }
+
+   #image{
+   		display: none;
+   		}
+   		
+}
